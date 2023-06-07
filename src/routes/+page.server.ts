@@ -1,4 +1,4 @@
-import githubFetch from "../lib/github-fetch.ts"
+import githubFetch from "../lib/githubFetch.ts"
 
 /** @type {import('./$types').PageServerLoad} */
 export function load({ params }) {
