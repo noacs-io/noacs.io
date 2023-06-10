@@ -8,7 +8,7 @@ async function githubFetch (query) {
 
   const response = await octokit.request("GET /orgs/" + GITHUB_OWNER + "/repos", {
     org: GITHUB_OWNER,
-     headers: {
+    headers: {
        'X-GitHub-Api-Version': '2022-11-28'
      }
   })
