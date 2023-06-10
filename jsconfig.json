@@ -1,0 +1,12 @@
+// jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      // name and path to aliases
+      "@functions": ["src/functions"],
+      "@components": ["src/components"],
+    }
+  },
+  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"]
+}
