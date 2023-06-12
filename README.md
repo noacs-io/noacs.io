@@ -1,8 +1,15 @@
-# create-svelte
+# Welcome to the noacs.io GitHub repository!
+
+This repository includes the source code of the noacs.io website, the website of the NOACS research lab. We welcome contributions, please see:
+
+- [Guidelines for contributors](./CONTRIBUTING.md)
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
+
+## create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
+### Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
 
@@ -14,7 +21,7 @@ npm create svelte@latest
 npm create svelte@latest my-app
 ```
 
-## Developing
+### Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
