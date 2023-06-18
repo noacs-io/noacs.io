@@ -51,7 +51,7 @@
 	/>
 </div>
 
-<div class="bg-primary text-primary-content py-[6rem] relative">
+<div class="bg-primary text-white py-[6rem] relative">
 	<div class="flex justify-center">
 		<div class="grid grid-cols-3 gap-8 max-w-3xl">
 			<div class="flex items-center justify-center">
@@ -152,7 +152,7 @@
 	</div>
 </div>
 
-<div class="bg-primary text-primary-content">
+<div class="bg-primary text-white">
 	<h1 class="text-5xl font-bold text-center py-10 italic uppercase">Bibliography</h1>
 	<div class="join join-vertical w-full">
 		<div class="collapse collapse-arrow join-item border border-base-300">
