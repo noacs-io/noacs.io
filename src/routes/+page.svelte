@@ -209,22 +209,24 @@
 	@keyframes breathe {
 		0%,
 		100% {
-			transform: scale(0.9);
+			transform: scale(1);
+			box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.2);
 		}
 		50% {
-			transform: scale(1.1);
+			transform: scale(1.2);
+			box-shadow: inset -0px -50px 40px rgba(0, 0, 0, 0.15);
 		}
 	}
 	.breathe {
-		box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.15);
 		animation: breathe 8s ease-in-out infinite;
-		z-index: 1; /* Ensure the circle is behind the text */
+		box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.2);
+		z-index: 1;
 	}
 
 	.breathe-delayed {
-		box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.15);
 		animation: breathe 10s ease-in-out infinite;
+		box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.2);
 		animation-delay: 1.5s;
-		z-index: 1; /* Ensure the circle is behind the text */
+		z-index: 1;
 	}
 </style>
