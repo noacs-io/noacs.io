@@ -21,7 +21,7 @@
 	];
 </script>
 
-<div class="hero min-h-[60vh] bg-base-100 py-[12rem] relative">
+<div class="hero min-h-[75vh] bg-base-100 py-[12rem] relative">
 	<div
 		class="breathe-delayed circle absolute -top-20 -left-10 w-64 h-64 bg-white rounded-full shadow-2xl hover:rounded-[45%]"
 	/>
@@ -51,7 +51,7 @@
 	/>
 </div>
 
-<div class="bg-primary text-white py-[6rem] relative">
+<div class="bg-primary text-white py-[6rem] relative mt-[75vh]">
 	<div class="flex justify-center">
 		<div class="grid grid-cols-3 gap-8 max-w-3xl">
 			<div class="flex items-center justify-center">
@@ -228,5 +228,11 @@
 		box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.2);
 		animation-delay: 1.5s;
 		z-index: 1;
+	}
+
+	.hero {
+		position: fixed;
+		width: 100%;
+		z-index: -1;
 	}
 </style>
