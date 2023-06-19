@@ -31,6 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@octokit/types": "^10.0.0",
 		"octokit": "^2.0.19"
 	}
 }
