@@ -4,21 +4,30 @@
 	import { faUser, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 	import { faGithub } from '@fortawesome/free-brands-svg-icons';
 	import Carousel from 'svelte-carousel';
+
 	let carousel; // for calling methods of the carousel instance
 	const handleNextClick = () => {
 		carousel.goToNext();
 	};
 
+	//	let cards = [
+	//		{ title: 'Project 1', description: 'This is project 1' },
+	//		{ title: 'Project 2', description: 'This is project 2' },
+	//		{ title: 'Project 3', description: 'This is project 3' },
+	//		{ title: 'Project 4', description: 'This is project 4' },
+	//		{ title: 'Project 5', description: 'This is project 5' }
+	//	];
+
 	/** @type {import('./$types').PageData} */
 	export let data;
 
-	let cards = [
-		{ title: 'Project 1', description: 'This is project 1' },
-		{ title: 'Project 2', description: 'This is project 2' },
-		{ title: 'Project 3', description: 'This is project 3' },
-		{ title: 'Project 4', description: 'This is project 4' },
-		{ title: 'Project 5', description: 'This is project 5' }
-	];
+	// filter data for repos with the topic webrepo into a new array of objects called cards
+	const cards = data.data
+		.filter((repo) => repo.topics.includes('student-project'))
+		.map((repo) => ({
+			title: repo.name,
+			description: repo.description
+		}));
 </script>
 
 <div class="hero min-h-[75vh] bg-base-100 py-[12rem] relative">
