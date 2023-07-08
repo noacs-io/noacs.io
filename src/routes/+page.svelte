@@ -1,4 +1,5 @@
 <script>
+	import { browser } from '$app/environment';
 	import Fa from 'svelte-fa';
 	import { faUser } from '@fortawesome/free-solid-svg-icons';
 	import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -81,14 +82,11 @@
 
 <div class="bg-secondary text-secondary-content py-[6rem]">
 	<div class="flex justify-center">
-		<div class="grid grid-cols-1 gap-8 max-w-3xl md:grid-cols-3">
-			<div class="flex items-center justify-center md:col-span-2 md:pr-[5rem]">
-				<div class="carousel w-full overflow-hidden">
-					{#each cards as card, i}
-						<div
-							id="item{i}"
-							class="carousel-item w-full card-body relative bg-base-100 rounded-xl min-h-[15rem]"
-						>
+		<div class="grid grid-cols-3 gap-8 max-w-3xl">
+			<div class="col-span-2 pr-[5rem]">
+				<Carousel autoplay autoplayDuration={6000} bind:this={carousel} pauseOnFocus>
+					{#each cards as card (card.title)}
+						<div class="card-body relative bg-base-100 rounded-xl min-h-[15rem]">
 							<h2 class="card-title">{card.title}</h2>
 							<p>{card.description}</p>
 							<div class="absolute top-0 right-0 mt-4 mr-4">
@@ -96,7 +94,7 @@
 							</div>
 						</div>
 					{/each}
-				</div>
+				</Carousel>
 			</div>
 
 			<div class="flex items-center justify-center">
