@@ -67,7 +67,7 @@
 				<div class="text-6xl font-bold text-center italic uppercase">Our Focus</div>
 			</div>
 			<div class="col-span-2">
-				<p class="text-lg text-justify">
+				<p class="text-lg text-justify p-[1rem]">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed semper ligula. Phasellus
 					et ante lectus. Proin tincidunt odio eu posuere pharetra. Morbi lacinia turpis nec risus
 					maximus, ac malesuada erat pharetra. Nulla facilisi. Vestibulum ante ipsum primis in
@@ -82,8 +82,13 @@
 
 <div class="bg-secondary text-secondary-content py-[6rem]">
 	<div class="flex justify-center">
-		<div class="grid grid-cols-3 gap-8 max-w-3xl">
-			<div class="col-span-2 pr-[5rem]">
+		<div class="grid grid-cols-5 gap-8 max-w-3xl">
+			<!-- Only visible on small devices -->
+			<div class="flex items-center justify-center sm:hidden col-span-5">
+				<div class="text-6xl font-bold text-center italic uppercase">Our Projects</div>
+			</div>
+
+			<div class="col-span-5 md:col-span-3">
 				<Carousel autoplay autoplayDuration={6000} bind:this={carousel} pauseOnFocus>
 					{#each cards as card (card.title)}
 						<div class="card-body relative bg-base-100 rounded-xl min-h-[15rem]">
@@ -97,7 +102,8 @@
 				</Carousel>
 			</div>
 
-			<div class="flex items-center justify-center">
+			<!-- Only visible on large devices -->
+			<div class="flex items-center justify-center hidden sm:flex px-[3rem] col-span-2">
 				<div class="text-6xl font-bold text-center italic uppercase">Our Projects</div>
 			</div>
 		</div>
