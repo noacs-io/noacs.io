@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Martin Gerdin Wärnberg",
+		"role": "Principal Investigator",
+		"occupation": "",
+		"affiliation": "Karolinska Institutet"
+	},
+	{
+		"name": "Johanna Berg",
+		"role": "PhD Student",
+		"occupation": "",
+		"affiliation": "Karolinska Institutet"
+	},
+	{
+		"name": "Jonatan Attergrim",
+		"role": "PhD Student",
+		"occupation": "",
+		"affiliation": "Karolinska Institutet"
+	},
+	{
+		"name": "Kelvin Szolnoky",
+		"role": "PhD Student",
+		"occupation": "",
+		"affiliation": "Karolinska Institutet",
+		"orcid": "https://orcid.org/0000-0002-0554-1872"
+	}
+]
