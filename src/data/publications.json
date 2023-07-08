@@ -1,0 +1,29 @@
+[
+	{
+		"title": "Developing Prediction Models for Opportunities for Improvement in Trauma Using Machine Learning",
+		"description": "<b>Objective:</b > To develop models to predict opportunities for improvement (OFI) in trauma care and compare the performance of these models to currently used audit filters. <b> Design: </b> In this prospective registry based study eight binary classification models were developed based on different machine learners and 46 predictors. Training used registry data and performance was measured in a temporally independent test set. Cross-validation minimized overfitting and a grid search optimized hyperparameters. Training data was balanced using an adaptive synthetic algorithm and permuted feature importance was calculated for all predictors. Confidence intervals were estimated using resampling without replacement and bootstraping. ",
+		"authors": "Jonatan Attergrim, Kelvin Szolnoky, Lovisa Strömmer, Olof Brattström, Gunilla Whilke, Martin Jacobsson, Martin Gerdin Wärnberg",
+		"project": "OFI",
+		"journal": "Preprint. January 2023",
+		"link": "https://www.medrxiv.org/content/10.1101/2023.01.19.23284654v2",
+		"tags": ["Quality Improvement", "Machine Learning", "Karolinska University Hospital"]
+	},
+	{
+		"title": "Developing Prediction Models for Opportunities for Improvement in Trauma Using Machine Learning",
+		"description": "<b>Objective:</b > To develop models to predict opportunities for improvement (OFI) in trauma care and compare the performance of these models to currently used audit filters. <b> Design: </b> In this prospective registry based study eight binary classification models were developed based on different machine learners and 46 predictors. Training used registry data and performance was measured in a temporally independent test set. Cross-validation minimized overfitting and a grid search optimized hyperparameters. Training data was balanced using an adaptive synthetic algorithm and permuted feature importance was calculated for all predictors. Confidence intervals were estimated using resampling without replacement and bootstraping. ",
+		"authors": "Jonatan Attergrim, Kelvin Szolnoky, Lovisa Strömmer, Olof Brattström, Gunilla Whilke, Martin Jacobsson, Martin Gerdin Wärnberg",
+		"project": "OFI",
+		"journal": "Preprint. January 2023",
+		"link": "https://www.medrxiv.org/content/10.1101/2023.01.19.23284654v2",
+		"tags": ["Quality Improvement", "Machine Learning", "Karolinska University Hospital"]
+	},
+	{
+		"title": "Developing Prediction Models for Opportunities for Improvement in Trauma Using Machine Learning",
+		"description": "<b>Objective:</b > To develop models to predict opportunities for improvement (OFI) in trauma care and compare the performance of these models to currently used audit filters. <b> Design: </b> In this prospective registry based study eight binary classification models were developed based on different machine learners and 46 predictors. Training used registry data and performance was measured in a temporally independent test set. Cross-validation minimized overfitting and a grid search optimized hyperparameters. Training data was balanced using an adaptive synthetic algorithm and permuted feature importance was calculated for all predictors. Confidence intervals were estimated using resampling without replacement and bootstraping. ",
+		"authors": "Jonatan Attergrim, Kelvin Szolnoky, Lovisa Strömmer, Olof Brattström, Gunilla Whilke, Martin Jacobsson, Martin Gerdin Wärnberg",
+		"project": "OFI",
+		"journal": "Preprint. January 2023",
+		"link": "https://www.medrxiv.org/content/10.1101/2023.01.19.23284654v2",
+		"tags": ["Quality Improvement", "Machine Learning", "Karolinska University Hospital"]
+	}
+]

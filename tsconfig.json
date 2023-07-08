@@ -13,8 +13,16 @@
 		"baseUrl": ".",
 		"paths": {
 			// name and path to aliases
-			"@functions": ["src/functions"],
-			"@components": ["src/components"]
+			"@": ["src"],
+			"@/*": ["src/*"],
+			"$functions": ["src/functions"],
+			"$functions/*": ["src/functions/*"],
+			"$components": ["src/components"],
+			"$components/*": ["src/components/*"],
+			"$data": ["src/data"],
+			"$data/*": ["src/data/*"],
+			"$lib":["src/lib"],
+			"$lib/*":["src/lib/*"]
 		}
 	}
 }
